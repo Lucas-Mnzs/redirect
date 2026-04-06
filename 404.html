@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script>
+    const path = window.location.pathname;
+    const id = path.split('/').pop();
+
+    window.location.href = `belagiappcliente://salao-cliente/${id}`;
+
+    setTimeout(() => {
+      window.location.href = "https://play.google.com/store/apps/details?id=com.belagiappcliente.app";
+    }, 2000);
+  </script>
+</head>
+<body>
+  <p>Redirecionando...</p>
+</body>
+</html>
